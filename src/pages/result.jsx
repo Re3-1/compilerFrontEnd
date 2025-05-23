@@ -13,7 +13,7 @@ export function TimelineComponent() {
     async function getData() {
       try {
         console.log(text)
-        const response = await axios.post("https://fddc-2402-8100-2669-5aef-48cb-7a44-d8d6-c2f9.ngrok-free.app/api/compiler", {
+        const response = await axios.post("https://553f-2402-8100-2672-5356-55f2-ddbd-2799-2eee.ngrok-free.app/api/compiler/", {
           message: text
         });
         console.log(response.data.message);
